@@ -268,10 +268,10 @@ Stuff I added
   height: 500px;
   width: 600px;
 }
+
 #gmap_canvas {
   height:500px;
   width:600px;
-
 }
 
 #gmap_canvas img {
@@ -281,6 +281,8 @@ Stuff I added
 
 #altered-banner {
   width: 100%;
+  border: none;
+  box-shadow: none;
 }
 
 
@@ -299,12 +301,12 @@ End of stuff I added
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #2cb;
+  background: -moz-linear-gradient(top, #373737, #2cb);
+  background: -webkit-linear-gradient(top, #373737, #2cb);
+  background: -ms-linear-gradient(top, #373737, #2cb);
+  background: -o-linear-gradient(top, #373737, #2cb);
+  background: linear-gradient(top, #373737, #2cb);
 }
 
 #header_wrap .inner {

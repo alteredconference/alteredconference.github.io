@@ -260,6 +260,33 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+/*******************************************************************************
+Stuff I added
+*******************************************************************************/
+#map {
+  overflow: hidden;
+  height: 500px;
+  width: 600px;
+}
+#gmap_canvas {
+  height:500px;
+  width:600px;
+
+}
+
+#gmap_canvas img {
+   max-width:none!important;
+   background:none!important;
+}
+
+#altered-banner {
+  width: 100%;
+}
+
+
+/*******************************************************************************
+End of stuff I added
+*******************************************************************************/
 .outer {
   width: 100%;
 }
@@ -282,10 +309,6 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
-}
-
-#altered-banner {
-  width: 100%;
 }
 
 #project_title {

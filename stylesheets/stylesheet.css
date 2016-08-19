@@ -267,6 +267,7 @@ Stuff I added
   overflow: hidden;
   height: 500px;
   width: 600px;
+  margin-bottom: 2em;
 }
 
 #gmap_canvas {

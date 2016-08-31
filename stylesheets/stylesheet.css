@@ -311,11 +311,11 @@ End of stuff I added
 
 #header_wrap {
   background: #2cb;
-  background: -moz-linear-gradient(top, #373737, #2cb);
-  background: -webkit-linear-gradient(top, #373737, #2cb);
-  background: -ms-linear-gradient(top, #373737, #2cb);
-  background: -o-linear-gradient(top, #373737, #2cb);
-  background: linear-gradient(top, #373737, #2cb);
+  background: -moz-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
+  background: -webkit-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
+  background: -ms-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
+  background: -o-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
+  background: linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
 }
 
 #header_wrap .inner {

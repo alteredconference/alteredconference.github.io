@@ -1,19 +1,11 @@
-function init_map(){
-  var myOptions = {
-    zoom:14,
-    center:new google.maps.LatLng(52.4796351,13.4330946),
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
-
-  map = new google.maps.Map(document.getElementById('agora-rollberg-gmaps'), myOptions);
-  marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.4796351,13.4330946)});
-  infowindow = new google.maps.InfoWindow({content:"<b>Agora Rollberg</b><br/>Rollbergstr 26<br/>12053 Berlin" });
-
-  google.maps.event.addListener(marker, "click", function(){
-    infowindow.open(map,marker);
+function initMap() {
+  var rollberg = {lat: 52.4796351, lng: 13.4330946};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
+    center: rollberg
   });
-
-  infowindow.open(map,marker);
+  var marker = new google.maps.Marker({
+    position: rollberg,
+    map: map
+  });
 }
-
-google.maps.event.addDomListener(window, 'load', init_map);

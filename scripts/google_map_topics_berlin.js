@@ -1,19 +1,11 @@
-function init_map(){
-  var myOptions = {
-    zoom:14,
-    center:new google.maps.LatLng(52.48352,13.441180000000031),
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
-
-  map = new google.maps.Map(document.getElementById('topics-gmaps'), myOptions);
-  marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.48352, 13.441180000000031)});
-  infowindow = new google.maps.InfoWindow({content:"<b>Topics Berlin</b><br/>Weserstr 166<br/>12045 Berlin" });
-
-  google.maps.event.addListener(marker, "click", function(){
-    infowindow.open(map,marker);
+function initMap() {
+  var topics = {lat: 52.48352, lng: 13.441180000000031};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
+    center: topics
   });
-
-  infowindow.open(map,marker);
+  var marker = new google.maps.Marker({
+    position: topics,
+    map: map
+  });
 }
-
-google.maps.event.addDomListener(window, 'load', init_map);

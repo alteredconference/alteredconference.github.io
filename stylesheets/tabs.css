@@ -8,6 +8,10 @@
 }
 
 /*----- Tab Links -----*/
+ul .tab-links {
+    margin-bottom: 0px;
+}
+
 /* Clearfix */
 .tab-links:after {
     display:block;

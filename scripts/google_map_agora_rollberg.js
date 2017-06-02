@@ -1,11 +1,11 @@
 function initMap() {
-  var topics = {lat: 52.48352, lng: 13.441180000000031};
+  var rollberg = {lat: 52.4796351, lng: 13.4330946};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: topics
+    center: rollberg
   });
   var marker = new google.maps.Marker({
-    position: topics,
+    position: rollberg,
     map: map
   });
 }

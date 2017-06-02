@@ -1,11 +1,11 @@
 function initMap() {
-  var topics = {lat: 52.48352, lng: 13.441180000000031};
+  var berlin = {lat: 52.52437, lng: 13.41053};
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 14,
-    center: topics
+    zoom: 11,
+    center: berlin
   });
   var marker = new google.maps.Marker({
-    position: topics,
+    position: berlin,
     map: map
   });
 }

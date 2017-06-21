@@ -259,9 +259,10 @@ Full-Width Styles
   width: 100%;
 }
 
+
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width:65%; /** modified from 640px **/
   padding: 20px 10px;
   margin: 0 auto;
 }

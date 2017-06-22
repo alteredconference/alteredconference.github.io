@@ -262,22 +262,9 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width:65%; /** modified from 640px **/
+  max-width:50%; /** modified from 640px **/
   padding: 20px 10px;
   margin: 0 auto;
-}
-
-#header_wrap {
-  background: #2cb;
-  background: -moz-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -webkit-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -ms-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -o-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-}
-
-#header_wrap .inner {
-  padding: 65px 10px 45px 10px;
 }
 
 #project_title {
@@ -342,6 +329,7 @@ Full-Width Styles
 }
 
 #main_content {
+  margin-top: 10em;
   padding-top: 10px;
 }
 

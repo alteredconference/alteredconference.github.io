@@ -8,8 +8,8 @@ $(function(){
 
 $(document).ready(function(){
   $('.teaser-anchor').on('click', function(){
-    var dest = $(this).attr('href'); 
-    console.log(dest); 
+    var dest = $(this).attr('href');
+    console.log(dest);
     //console.log('this', $(this).href)
     //var topPosition = $(this).data('href').offset().top;
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
     //header.find('#main-nav').fadeToggle();
     $('body').removeClass('hide-scrollbar');
     $('#main-content').css('margin-top', '4em');
-    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow'); 
+    $('html,body').animate({ scrollTop: $(dest).offset().top - 23 }, 'fast');
   });
 });
 

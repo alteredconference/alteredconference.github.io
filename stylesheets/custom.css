@@ -2,6 +2,10 @@ ul, ol, dl {
   margin-bottom: 0px;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Acme', sans-serif;
+}
+
 #header-wrap {
   /* pretty colors */
   background: #2cb;
@@ -56,11 +60,98 @@ ul, ol, dl {
   float: left;
 }
 
-.nav li a {
+/* teaser nav links */
+#teaser-nav {
+  display: table;
+  font-size: 1.9em;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: 'Chau Philomene One', 'sans-serif';
+  border:none;
+}
+
+#teaser-nav td {
+  border: none;
+}
+
+#teaser-nav td a {
+  color: purple;
   display:block;
   text-align:center;
-  width:150px; /* fixed width */
   text-decoration:none;
+}
+
+/* Wobble Skew */
+@-webkit-keyframes hvr-wobble-skew {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes hvr-wobble-skew {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.hvr-wobble-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 #altered-banner {
@@ -89,7 +180,8 @@ ul, ol, dl {
 
 #dynamic-header-wrap .inner {
   /* don't block the nav bar */
-  z-index: -1
+  z-index: -1;
+  max-width: 60%;
 }
 
 #header-teaser-banner {
@@ -97,17 +189,21 @@ ul, ol, dl {
 }
 
 .header-teaser-text {
+  font-family: 'Chau Philomene One', 'sans-serif';
   font-size: 2em;
-  font-family: 'Acme', sans-serif;
 }
 
 /*-- shared --*/
 
 .sub-section {
-  border: 2px dashed blueviolet;
+  border: 10px solid transparent;
+  -webkit-border-image: url('../images/border2.png') 3 stretch;
+  -o-border-image: url('../images/border2.png') 3 stretch;
+  border-image: url('../images/border2.png') 3 stretch;
+  /*border: 2px dashed blueviolet;*/
   padding: 1em;
-  margin-bottom: 1em;
-  background: rgba(255,255,255,0.25);
+  margin-bottom: 1.5em;
+  background: rgba(255,255,255,0.23);
 }
 
 #map {
@@ -146,8 +242,4 @@ ul, ol, dl {
 
 .recording:hover {
   text-decoration: none;
-}
-
-.hide-scrollbar {
-  overflow: hidden;
 }

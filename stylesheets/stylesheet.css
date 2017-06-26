@@ -258,7 +258,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width:50%; /** modified from 640px **/
+  max-width: 55%; /** modified from 640px **/
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -287,18 +287,18 @@ Full-Width Styles
 Small Device Styles
 *******************************************************************************/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
   body {
     font-size:14px;
   }
 
-  #downloads {
-    display: none;
+  #main-content {
+    margin-top: 2em;
   }
 
   .inner {
     min-width: 320px;
-    max-width: 480px;
+    max-width: 85%;
   }
 
   #project_title {

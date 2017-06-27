@@ -67,111 +67,6 @@ h1, h2, h3, h4 {
   text-decoration:none;
 }
 
-/* Wobble Skew */
-@-webkit-keyframes hvr-wobble-skew {
-  16.65% {
-    -webkit-transform: skew(-12deg);
-    transform: skew(-12deg);
-  }
-  33.3% {
-    -webkit-transform: skew(10deg);
-    transform: skew(10deg);
-  }
-  49.95% {
-    -webkit-transform: skew(-6deg);
-    transform: skew(-6deg);
-  }
-  66.6% {
-    -webkit-transform: skew(4deg);
-    transform: skew(4deg);
-  }
-  83.25% {
-    -webkit-transform: skew(-2deg);
-    transform: skew(-2deg);
-  }
-  100% {
-    -webkit-transform: skew(0);
-    transform: skew(0);
-  }
-}
-@keyframes hvr-wobble-skew {
-  16.65% {
-    -webkit-transform: skew(-12deg);
-    transform: skew(-12deg);
-  }
-  33.3% {
-    -webkit-transform: skew(10deg);
-    transform: skew(10deg);
-  }
-  49.95% {
-    -webkit-transform: skew(-6deg);
-    transform: skew(-6deg);
-  }
-  66.6% {
-    -webkit-transform: skew(4deg);
-    transform: skew(4deg);
-  }
-  83.25% {
-    -webkit-transform: skew(-2deg);
-    transform: skew(-2deg);
-  }
-  100% {
-    -webkit-transform: skew(0);
-    transform: skew(0);
-  }
-}
-.hvr-wobble-skew {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-}
-.hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
-  -webkit-animation-name: hvr-wobble-skew;
-  animation-name: hvr-wobble-skew;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
-/* nav at lower width screen */
-@media screen and (max-width: 960px) {
-  #nav {
-    z-index: 2;
-    width: 100%;
-    margin: 0 auto;
-    position: fixed;
-    top: 0;
-    font-size: 1em;
-    text-align: center;
-    font-family: 'Chau Philomene One', 'sans-serif';
-    border:none;
-    font-weight: bold;
-    background: rgba(255,255,255,0.23);
-  }
-
-  #nav ul {
-    display: inline-block
-    list-style: none;
-    padding-left: 0;
-  }
-
-  #nav ul li {
-    padding: 0.2em;
-    float: left;
-  }
-
-  #nav li a {
-    text-align:center;
-    display: block;
-    color: purple;
-    text-decoration:none;
-  }
-}
-
 #most-recent-badge {
   font-family: 'Acme', 'sans-serif';
   font-size: 1.5em;
@@ -180,15 +75,6 @@ h1, h2, h3, h4 {
   position: fixed;
   top: 6%;
   right: 4%;
-}
-
-#most-recent-badge img {
-  width: 60%;
-  border: none;
-  box-shadow: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #altered-banner {
@@ -230,12 +116,6 @@ h1, h2, h3, h4 {
   font-size: 2em;
 }
 
-@media screen and (max-width: 580px) {
-  .header-teaser-text {
-    font-size: 1.8em;
-  }
-}
-
 /*-- shared --*/
 
 .sub-section {
@@ -243,7 +123,6 @@ h1, h2, h3, h4 {
   -webkit-border-image: url('../images/border2.png') 3 stretch;
   -o-border-image: url('../images/border2.png') 3 stretch;
   border-image: url('../images/border2.png') 3 stretch;
-  /*border: 2px dashed blueviolet;*/
   padding: 1em;
   margin-bottom: 1.5em;
   background: rgba(255,255,255,0.23);

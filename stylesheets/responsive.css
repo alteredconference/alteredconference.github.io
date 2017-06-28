@@ -98,9 +98,14 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1400px) {
   .header-teaser-text {
     font-size: 1.8em;
   }
 }
 
+@media screen and (max-width: 640px) {
+  .header-teaser-text {
+    font-size: 1.6em;
+  }
+}

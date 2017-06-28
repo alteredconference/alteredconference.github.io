@@ -7,6 +7,14 @@ $(function(){
 });
 
 $(document).ready(function(){
+  $('#nav-button').on('click', function(){
+    if($('#nav').hasClass('hide')) {
+      $('#nav').removeClass('hide');
+    } else {
+      $('#nav').addClass('hide');
+    };
+  });
+
   $('.nav-anchor').on('click', function(){
     var dest = $(this).attr('href');
     console.log(dest);

@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
   font-family: 'Acme', sans-serif;
 }
 
-#header-wrap {
+#header-wrap-2016 {
   /* pretty colors */
   background: #2cb;
   background: -moz-linear-gradient(to right bottom, #9cff00, #fcf900, #fca600, #ff2ea9);
@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(to right bottom, #9cff00, #fcf900, #fca600, #ff2ea9);
 }
 
-#main_content_wrap {
+#main_content_wrap-2016 {
   display: inline-block;
   /*background: #f2f2f2;*/
   background: -moz-linear-gradient(to right top, #9cff00, #fcf900, #fca600, #ff2ea9);
@@ -24,6 +24,23 @@ h1, h2, h3, h4 {
   background: -ms-linear-gradient(to right top, #9cff00, #fcf900, #fca600, #ff2ea9);
   background: -o-linear-gradient(to right top, #9cff00, #fcf900, #fca600, #ff2ea9);
   background: linear-gradient(to right top, #9cff00, #fcf900, #fca600, #ff2ea9);
+}
+
+#header-wrap-2017 {
+  background: -moz-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: -webkit-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: -ms-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: -o-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+}
+
+#main-content-wrap-2017 {
+  display: inline-block;
+  background: -moz-linear-gradient(to right top, purple, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to right top, purple, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to right top, purple, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to right top, purple, deeppink, orange, palegreen);
+  background: linear-gradient(to right top, palegreen, orange, deeppink, purple);
 }
 
 #main_content {
@@ -68,6 +85,7 @@ h1, h2, h3, h4 {
 }
 
 #most-recent-badge {
+  z-index: 1;
   font-family: 'Acme', 'sans-serif';
   font-size: 1.5em;
   color: black;
@@ -119,10 +137,6 @@ h1, h2, h3, h4 {
 /*-- shared --*/
 
 .sub-section {
-  border: 10px solid transparent;
-  -webkit-border-image: url('../images/border2.png') 3 stretch;
-  -o-border-image: url('../images/border2.png') 3 stretch;
-  border-image: url('../images/border2.png') 3 stretch;
   padding: 1em;
   margin-bottom: 1.5em;
   background: rgba(255,255,255,0.23);

@@ -51,7 +51,6 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -74,7 +73,6 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
 h3 {
@@ -160,7 +158,6 @@ p img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -189,7 +186,7 @@ pre code {
 }
 
 blockquote {
-  color: #666;
+  color: black;
   margin-bottom: 20px;
   padding: 0 0 0 20px;
   border-left: 3px solid #bbb;
@@ -247,7 +244,6 @@ td {
  }
 
 form {
-  background: #f2f2f2;
   padding: 20px;
 }
 
@@ -259,24 +255,12 @@ Full-Width Styles
   width: 100%;
 }
 
+
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 55%; /** modified from 640px **/
   padding: 20px 10px;
   margin: 0 auto;
-}
-
-#header_wrap {
-  background: #2cb;
-  background: -moz-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -webkit-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -ms-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: -o-linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-  background: linear-gradient(left, #9cff00, #fcf900, #fca600, #ff2ea9);
-}
-
-#header_wrap .inner {
-  padding: 65px 10px 45px 10px;
 }
 
 #project_title {
@@ -295,109 +279,6 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#downloads {
-  position: absolute;
-  width: 210px;
-  z-index: 10;
-  bottom: -40px;
-  right: 0;
-  height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
-}
-
-.zip_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom left;
-}
-
-.tar_download_link {
-  display: block;
-  float: right;
-  width: 90px;
-  height:70px;
-  text-indent: -5000px;
-  overflow: hidden;
-  background: url(../images/sprite_download.png) no-repeat bottom right;
-  margin-left: 10px;
-}
-
-.zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
-}
-
-.tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
-}
-
-#main_content_wrap {
-  background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-
-#main_content {
-  padding-top: 10px;
-}
-
 #footer_wrap {
-  background: #212121;
-}
-
-/*******************************************************************************
-Small Device Styles
-*******************************************************************************/
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size:14px;
-  }
-
-  #downloads {
-    display: none;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  #project_title {
-  font-size: 32px;
-  }
-
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
-    font-size: 18px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  h6 {
-    font-size: 12px;
-  }
-
-  code, pre {
-    min-width: 320px;
-    max-width: 480px;
-    font-size: 11px;
-  }
-
+  /*background: #212121;*/
 }

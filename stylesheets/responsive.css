@@ -69,15 +69,6 @@ Small Device Styles
   }
 }
 
-@media screen and (max-width: 840px) {
-  #nav {
-    right: 10%;
-    background: orange;
-    padding: 0.5em;
-    padding-right: 1em;
-  }
-}
-
 @media screen and (max-width: 640px) {
   .header-teaser-text {
     font-size: 1.6em;

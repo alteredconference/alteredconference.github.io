@@ -68,7 +68,7 @@ h1, h2, h3, h4 {
   z-index: 2;
   position: fixed;
   top: 3%;
-  right: 3%;
+  right: 6%;
   font-size: 1.7em;
   margin-right: auto;
   margin-left: auto;
@@ -76,6 +76,9 @@ h1, h2, h3, h4 {
   font-family: 'Chau Philomene One', 'sans-serif';
   border:none;
   font-weight: bold;
+  background: orange;
+  padding: 0.5em;
+  padding-right: 1em;
 }
 
 #nav ul {

@@ -50,41 +50,6 @@ Small Device Styles
     font-size: 11px;
   }
 
-  /* nav at lower width screen */
-  #nav {
-    z-index: 2;
-    margin: 0 auto;
-    position: fixed;
-    top: 0;
-    left: 95% !important;
-    font-size: 1em;
-    text-align: center;
-    font-family: 'Chau Philomene One', 'sans-serif';
-    border:none;
-    text-transform: uppercase;
-  }
-
-  #nav ul {
-    display: inline-block
-    list-style: none;
-    padding-left: 0;
-    padding-top: 1em;
-  }
-
-  #nav ul li {
-    padding-bottom: 1em;
-  }
-
-  #nav li a {
-    line-height: 14px;
-    text-align:center;
-    display: block;
-    color: purple;
-    text-decoration:none;
-    width: 1px;
-    word-wrap: break-word;
-  }
-
   /* most recent badge at lower width screen */
   #most-recent-badge {
     z-index: 2;
@@ -101,6 +66,15 @@ Small Device Styles
 @media screen and (max-width: 1400px) {
   .header-teaser-text {
     font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #nav {
+    right: 10%;
+    background: orange;
+    padding: 0.5em;
+    padding-right: 1em;
   }
 }
 

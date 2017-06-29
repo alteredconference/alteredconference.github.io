@@ -6,6 +6,18 @@ $(function(){
   header.data('size','big');
 });
 
+$(window).resize(function(){
+  var windowWidth = $(window).width();
+
+  if(windowWidth < 840) {
+    $('#nav-button').removeClass('hide');
+    $('#nav').addClass('hide');
+  } else {
+    $('#nav-button').addClass('hide');
+    $('#nav').removeClass('hide');
+  };
+});
+
 $(document).ready(function(){
   $('#nav-button').on('click', function(){
     if($('#nav').hasClass('hide')) {

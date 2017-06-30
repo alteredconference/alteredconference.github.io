@@ -10,9 +10,6 @@ $(document).ready(function(){
   });
 
   $('.nav-anchor').on('click', function(){
-    var dest = $(this).attr('href');
-
     $('#nav').addClass('hide');
-    $('html,body').animate({ scrollTop: $(dest).offset().top - 23 }, 'fast');
   });
 });

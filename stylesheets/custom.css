@@ -52,7 +52,13 @@ h1, h2, h3, h4 {
   background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
 }
 
-.main-content {
+.teaser {
+  background: url('../images/teaser_background.jpg') repeat-x center; 
+  background-size: 101% 100%;
+}
+
+.teaser-inner {
+  max-width: 70%;
 }
 
 .center {

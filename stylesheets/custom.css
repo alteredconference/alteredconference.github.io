@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
 }
 
-#main-content-wrap-2017 {
+#main-content-wrap-2017-upper {
   display: inline-block;
   background: -moz-linear-gradient(to right top, purple, deeppink, orange, palegreen);
   background: -webkit-linear-gradient(to right top, purple, deeppink, orange, palegreen);
@@ -43,9 +43,16 @@ h1, h2, h3, h4 {
   background: linear-gradient(to right top, palegreen, orange, deeppink, purple);
 }
 
-#main_content {
-  margin-top: 1em;
-  padding-top: 10px;
+#main-content-wrap-2017-lower {
+  display: inline-block;
+  background: -moz-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
+  background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+}
+
+.main-content {
 }
 
 .center {
@@ -67,18 +74,19 @@ h1, h2, h3, h4 {
 #nav {
   z-index: 2;
   position: fixed;
-  top: 3%;
-  right: 6%;
+  top: 0;
+  right: 0;
+  height: 100%;
   font-size: 1.7em;
   margin-right: auto;
   margin-left: auto;
   text-align: right;
   font-family: 'Chau Philomene One', 'sans-serif';
-  border:none;
   font-weight: bold;
-  background: orange;
   padding: 0.5em;
+  padding-top: 23%;
   padding-right: 1em;
+  background: rgba(255,255,255,0.8);
 }
 
 #nav ul {
@@ -116,20 +124,11 @@ h1, h2, h3, h4 {
   margin-right: auto;
 }
 
-#header-wrap-2017 {
-  min-height: 100vh;
-}
-
-#header-wrap-2017 .inner {
-  /* don't block the nav bar */
-  max-width: 60%;
-}
-
 #header-teaser-banner {
   margin-bottom: 2em;
 }
 
-.header-teaser-text {
+.teaser-text {
   font-family: 'Chau Philomene One', 'sans-serif';
   font-size: 2.1em;
 }
@@ -138,7 +137,8 @@ h1, h2, h3, h4 {
 
 .sub-section {
   padding: 1em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
+  margin-bottom: 2em;
   background: rgba(255,255,255,0.23);
 }
 
@@ -184,7 +184,6 @@ h1, h2, h3, h4 {
   display: none;
 }
 
-#iframe-video {
-  min-width: 85%;
-  min-height: 300px;
+iframe {
+  max-width: 90%;
 }

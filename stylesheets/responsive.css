@@ -2,6 +2,30 @@
 Small Device Styles
 *******************************************************************************/
 
+@media screen and (max-width: 320px) {
+  .header-teaser-text {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .inner {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-teaser-text {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner {
+    max-width: 75%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   body {
     font-size:14px;
@@ -9,11 +33,6 @@ Small Device Styles
 
   #main-content {
     margin-top: 2em;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 85%;
   }
 
   #project_title {
@@ -66,11 +85,5 @@ Small Device Styles
 @media screen and (max-width: 1400px) {
   .header-teaser-text {
     font-size: 1.8em;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .header-teaser-text {
-    font-size: 1.6em;
   }
 }

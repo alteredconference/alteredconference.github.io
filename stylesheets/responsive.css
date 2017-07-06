@@ -35,8 +35,12 @@ Small Device Styles
     margin-top: 2em;
   }
 
+  #nav {
+    padding-top: 4%;
+  }
+
   #project_title {
-  font-size: 32px;
+    font-size: 32px;
   }
 
   h1 {

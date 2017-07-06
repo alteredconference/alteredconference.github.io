@@ -53,7 +53,7 @@ h1, h2, h3, h4 {
 }
 
 .teaser {
-  background: url('../images/teaser_background.jpg') repeat-x center; 
+  background: url('../images/teaser_background.jpg') repeat-x center;
   background-size: 101% 100%;
 }
 
@@ -82,17 +82,16 @@ h1, h2, h3, h4 {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100%;
   font-size: 1.7em;
   margin-right: auto;
   margin-left: auto;
-  text-align: right;
+  text-align: left;
   font-family: 'Chau Philomene One', 'sans-serif';
   font-weight: bold;
   padding: 0.5em;
-  padding-top: 23%;
-  padding-right: 1em;
-  background: rgba(255,255,255,0.8);
+  padding-top: 2%;
+  padding-right: 6%;
+  background: rgba(255,255,255,0.9);
 }
 
 #nav ul {
@@ -105,7 +104,7 @@ h1, h2, h3, h4 {
 }
 
 #nav li a {
-  color: purple;
+  color: inherit;
   text-align:center;
   text-decoration:none;
 }

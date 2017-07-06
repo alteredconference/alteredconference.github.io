@@ -27,34 +27,45 @@ h1, h2, h3, h4 {
 }
 
 #header-wrap-2017 {
-  background: -moz-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
-  background: -webkit-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
-  background: -ms-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
-  background: -o-linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
-  background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: -moz-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
 }
 
 #main-content-wrap-2017-upper {
   display: inline-block;
-  background: -moz-linear-gradient(to right top, purple, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to right top, purple, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to right top, purple, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to right top, purple, deeppink, orange, palegreen);
-  background: linear-gradient(to right top, palegreen, orange, deeppink, purple);
+  background: -moz-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
+  background: linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
 }
 
 #main-content-wrap-2017-lower {
   display: inline-block;
-  background: -moz-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to right bottom, purple, deeppink, orange, palegreen);
-  background: linear-gradient(to right bottom, palegreen, orange, deeppink, purple);
+  background: -moz-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: linear-gradient(to left top, purle, deeppink, orange, palegreen);
 }
 
-.teaser {
-  background: url('../images/teaser_background.jpg') repeat-x center;
-  background-size: 101% 100%;
+#teaser-upper {
+  background: -moz-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+  background: -webkit-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+  background: -ms-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+  background: -o-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+  background: linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+}
+
+#teaser-lower {
+  background: -moz-linear-gradient(to left, rgba(255,20,147,0.4), rgba(255,165,0,0.4), rgba(152,251,152,0.4));
+  background: -webkit-linear-gradient(to left, rgba(255,20,147,0.4), rgba(255,165,0,0.4), rgba(152,251,152,0.4));
+  background: -ms-linear-gradient(to left, rgba(255,20,147,0.4), rgba(255,165,0,0.4), rgba(152,251,152,0.4));
+  background: -o-linear-gradient(to left, rgba(255,20,147,0.4), rgba(255,165,0,0.4), rgba(152,251,152,0.4));
+  background: linear-gradient(to left, rgba(255,20,147,0.4), rgba(255,165,0,0.4), rgba(152,251,152,0.4));
 }
 
 .teaser-inner {
@@ -129,7 +140,7 @@ h1, h2, h3, h4 {
   margin-right: auto;
 }
 
-#header-teaser-banner {
+#header-banner {
   margin-bottom: 2em;
 }
 

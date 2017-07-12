@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
   background: linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
 }
 
+
 #teaser-upper {
   background: -moz-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
   background: -webkit-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
@@ -131,15 +132,6 @@ h1, h2, h3, h4 {
   right: 4%;
 }
 
-#altered-banner {
-  width: 60%;
-  border: none;
-  box-shadow: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #header-banner {
   margin-bottom: 2em;
 }
@@ -150,6 +142,22 @@ h1, h2, h3, h4 {
 }
 
 /*-- shared --*/
+
+.logo {
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-logo {
+  width: 60%;
+}
+
+#footer-logo {
+  width: 30%;
+}
 
 .sub-section {
   padding: 1em;

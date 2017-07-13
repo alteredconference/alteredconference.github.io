@@ -13,3 +13,9 @@ $(document).ready(function(){
     $('#nav').addClass('hide');
   });
 });
+
+$(document).on('scroll', function(){
+  if ( !$('#nav').hasClass('hide') ) {
+    $('#nav').addClass('hide');
+  };
+});

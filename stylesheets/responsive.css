@@ -9,9 +9,18 @@ Small Device Styles
 }
 
 @media screen and (max-width: 360px) {
-  .inner {
+  #body-2017 .inner {
+    max-width: 85%;
+  }
+
+  .sub-section {
     max-width: 90%;
   }
+
+  #header-logo {
+    width: 80%;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -22,7 +31,7 @@ Small Device Styles
 
 @media screen and (max-width: 768px) {
   .inner {
-    max-width: 75%;
+    max-width: 80%;
   }
 }
 

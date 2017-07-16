@@ -27,22 +27,6 @@ h1, h2, h3, h4 {
 }
 
 #header-wrap-2017, html {
-  background: -moz-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-}
-
-#main-content-wrap-2017-upper {
-  background: -moz-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-}
-
-#main-content-wrap-2017-middle {
   background: -moz-linear-gradient(to left top, deeppink, orange, palegreen);
   background: -webkit-linear-gradient(to left top, deeppink, orange, palegreen);
   background: -ms-linear-gradient(to left top, deeppink, orange, palegreen);
@@ -50,12 +34,20 @@ h1, h2, h3, h4 {
   background: linear-gradient(to left top, deeppink, orange, palegreen);
 }
 
+#main-content-wrap-2017-upper {
+  background: -moz-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: linear-gradient(to left bottom, deeppink, orange, palegreen);
+}
+
 #main-content-wrap-2017-lower {
-  background: -moz-linear-gradient(to left top, linen, deeppink, orange);
-  background: -webkit-linear-gradient(to left top, linen, deeppink, orange);
-  background: -ms-linear-gradient(to left top, linen, deeppink, orange);
-  background: -o-linear-gradient(to left top, linen, deeppink, orange);
-  background: linear-gradient(to left top, linen, deeppink, orange);
+  background: -moz-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: linear-gradient(to left top, deeppink, orange, palegreen);
 }
 
 .teaser {
@@ -72,6 +64,23 @@ h1, h2, h3, h4 {
 
 .teaser-inner {
   max-width: 70%;
+}
+
+#topics-wrap {
+  font-family: 'Acme', 'sans-serif';
+  overflow: hidden;
+}
+
+#topics-wrap .topic {
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+
+#topics-wrap .logo {
+  height: 10em;
+  margin-bottom: -2em;
+  margin-top: -2em;
 }
 
 #body-2017 .inner {
@@ -167,6 +176,9 @@ h1, h2, h3, h4 {
   margin-bottom: 1em;
   margin-top: 1em;
   background: rgba(255,255,255,0.70);
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
 }
 
 .btn {

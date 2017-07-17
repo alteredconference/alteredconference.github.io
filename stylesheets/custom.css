@@ -4,6 +4,7 @@ ul, ol, dl {
 
 h1, h2, h3, h4 {
   font-family: 'Chau Philomene One', 'sans-serif';
+  letter-spacing: normal;
 }
 
 #header-wrap-2016 {
@@ -130,7 +131,7 @@ h1, h2, h3, h4 {
   padding-left: 2em;
 }
 
-#body-2017 .inner {
+.inner {
   font-family: 'Acme', 'sans-serif';
   max-width: 70%;
 }
@@ -177,16 +178,6 @@ h1, h2, h3, h4 {
   text-decoration:none;
 }
 
-#most-recent-badge {
-  z-index: 1;
-  font-size: 1.5em;
-  color: black;
-  text-align: center;
-  position: fixed;
-  top: 6%;
-  right: 4%;
-}
-
 #header-banner {
   margin-bottom: 2em;
 }
@@ -220,7 +211,7 @@ h1, h2, h3, h4 {
 .sub-section {
   font-size: 1.1em;
   position: relative;
-  padding: 1em;
+  padding: 1em 2em;
   margin-bottom: 1em;
   margin-top: 1em;
   background: rgba(255,255,255,0.70);

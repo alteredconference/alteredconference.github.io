@@ -20,23 +20,22 @@ Small Device Styles
   #header-logo {
     width: 80%;
   }
-
 }
 
 @media screen and (max-width: 640px) {
   .header-teaser-text {
     font-size: 1.6em;
   }
-
-  #topics-wrap .topic {
-    width: 100%;
-    float: none;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .inner {
     max-width: 80%;
+  }
+
+  #topics-wrap .topic {
+    width: 100%;
+    float: none;
   }
 }
 

@@ -1,6 +1,8 @@
-// from https://stackoverflow.com/a/16442479/2128691
-
 $(document).ready(function(){
+  // update the url bar.
+  // i will lick your ass if you can explain why i need to do this.
+  document.location.path = window.location.path;
+
   $('#nav-button').on('click', function(){
     if($('#nav').hasClass('hide')) {
       $('#nav').removeClass('hide');

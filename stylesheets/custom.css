@@ -26,38 +26,32 @@ h1, h2, h3, h4 {
   background: linear-gradient(to right top, #9cff00, #fcf900, #fca600, #ff2ea9);
 }
 
-#header-wrap-2017 {
-  background: -moz-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+#header-wrap-2017, html {
+  background: -moz-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: linear-gradient(to left top, deeppink, orange, palegreen);
 }
 
 #main-content-wrap-2017-upper {
-  display: inline-block;
-  background: -moz-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
-  background: linear-gradient(to left bottom, cornflowerblue, deeppink, orange, palegreen);
+  background: -moz-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left bottom, deeppink, orange, palegreen);
+  background: linear-gradient(to left bottom, deeppink, orange, palegreen);
 }
 
 #main-content-wrap-2017-lower {
-  display: inline-block;
-  background: -moz-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -webkit-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -ms-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: -o-linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
-  background: linear-gradient(to left top, cornflowerblue, deeppink, orange, palegreen);
+  background: -moz-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -webkit-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -ms-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: -o-linear-gradient(to left top, deeppink, orange, palegreen);
+  background: linear-gradient(to left top, deeppink, orange, palegreen);
 }
 
-#teaser-upper {
-  background: -moz-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
-  background: -webkit-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
-  background: -ms-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
-  background: -o-linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
-  background: linear-gradient(to left, rgba(100,149,237,0.4), rgba(255,20,147,0.4));
+.teaser {
+  background: rgba(230,230,250,0.9);
 }
 
 #teaser-lower {
@@ -72,10 +66,73 @@ h1, h2, h3, h4 {
   max-width: 70%;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+#topics-wrap {
+  font-family: 'Acme', 'sans-serif';
+  overflow: hidden;
+}
+
+#topics-wrap .topic {
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+
+#topics-wrap .logo {
+  height: 10em;
+  margin-bottom: -2em;
+  margin-top: -2em;
+}
+
+#topic-image-left {
+  animation: spin 2s infinite ease-out;
+  -moz-animation: spin 2s infinite ease-out;
+  -webkit-animation: spin 2s infinite ease-out;
+}
+
+#topic-image-middle {
+  animation: spin 10s infinite linear;
+  -moz-animation: spin 10s infinite linear;
+  -webkit-animation: spin 10s infinite linear;
+}
+
+#topic-image-right {
+  animation: reverseSpin 3s infinite linear;
+  -moz-animation: reverseSpin 3s infinite linear;
+  -webkit-animation: reverseSpin 3s infinite linear;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg) scale(2); }
+    to { -moz-transform: rotate(360deg) scale(1); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@-moz-keyframes reverseSpin {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes reverseSpin {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes reverseSpin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+#topics-wrap ul {
+  padding-left: 2em;
+}
+
+#body-2017 .inner {
+  max-width: 70%;
 }
 
 /* nav stuff */
@@ -131,15 +188,6 @@ h1, h2, h3, h4 {
   right: 4%;
 }
 
-#altered-banner {
-  width: 60%;
-  border: none;
-  box-shadow: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #header-banner {
   margin-bottom: 2em;
 }
@@ -151,11 +199,51 @@ h1, h2, h3, h4 {
 
 /*-- shared --*/
 
+.logo {
+  border: none;
+  box-shadow: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-logo {
+  width: 60%;
+}
+
+#footer-logo {
+  width: 30%;
+}
+
+.main-content {
+}
+
 .sub-section {
+  position: relative;
   padding: 1em;
-  margin-bottom: 2em;
-  margin-bottom: 2em;
-  background: rgba(255,255,255,0.23);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background: rgba(255,255,255,0.70);
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+.btn {
+  font-family: 'Chau Philomene One', 'sans-serif';
+  position: absolute;
+  bottom: 3%;
+  right: 1%;
+  text-transform: uppercase;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #map {

@@ -189,6 +189,10 @@ h1, h2, h3, h4 {
 
 /*-- shared --*/
 
+a {
+  cursor: pointer;
+}
+
 .logo {
   border: none;
   box-shadow: none;

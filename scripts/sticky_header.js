@@ -25,5 +25,5 @@ $(document).on('scroll', function(){
 });
 
 goToPage = function(path){
-  parent.window.location.href = path
+  window.frames[0].location.href = path
 }

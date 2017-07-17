@@ -3,7 +3,7 @@ ul, ol, dl {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Acme', sans-serif;
+  font-family: 'Chau Philomene One', 'sans-serif';
 }
 
 #header-wrap-2016 {
@@ -67,7 +67,6 @@ h1, h2, h3, h4 {
 }
 
 #topics-wrap {
-  font-family: 'Acme', 'sans-serif';
   overflow: hidden;
 }
 
@@ -132,6 +131,7 @@ h1, h2, h3, h4 {
 }
 
 #body-2017 .inner {
+  font-family: 'Acme', 'sans-serif';
   max-width: 70%;
 }
 
@@ -179,7 +179,6 @@ h1, h2, h3, h4 {
 
 #most-recent-badge {
   z-index: 1;
-  font-family: 'Acme', 'sans-serif';
   font-size: 1.5em;
   color: black;
   text-align: center;
@@ -219,6 +218,7 @@ h1, h2, h3, h4 {
 }
 
 .sub-section {
+  font-size: 1.1em;
   position: relative;
   padding: 1em;
   margin-bottom: 1em;

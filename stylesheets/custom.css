@@ -234,6 +234,11 @@ ul {
   -webkit-border-radius: 0.5em;
 }
 
+.glow {
+  font-size: 1.2em;
+  text-shadow: 0 0 10px deeppink;
+}
+
 .btn {
   font-family: 'Montserrat', 'sans-serif';
   position: absolute;

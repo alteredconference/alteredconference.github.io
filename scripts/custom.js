@@ -10,6 +10,14 @@ $(document).ready(function(){
   $('.nav-anchor').on('click', function(){
     $('#nav').addClass('hide');
   });
+
+  $('.clickable').on('mouseenter', function(){
+    $(this).find('button').addClass('glow');
+  });
+
+  $('.clickable').on('mouseleave', function(){
+    $(this).find('button').removeClass('glow');
+  });
 });
 
 $(document).on('scroll', function(){

@@ -85,9 +85,9 @@ h1, h2, h3, h4 {
 }
 
 #topic-image-left {
-  animation: spin 6s infinite ease-out;
-  -moz-animation: spin 6s infinite ease-out;
-  -webkit-animation: spin 6s infinite ease-out;
+  animation: spin 10s infinite ease-out;
+  -moz-animation: spin 10s infinite ease-out;
+  -webkit-animation: spin 10s infinite ease-out;
 }
 
 #topic-image-middle {

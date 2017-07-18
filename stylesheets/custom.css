@@ -3,7 +3,8 @@ ul, ol, dl {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Chau Philomene One', 'sans-serif';
+  font-family: 'Acme', 'sans-serif';
+  text-transform: uppercase;
   letter-spacing: normal;
 }
 
@@ -132,7 +133,7 @@ h1, h2, h3, h4 {
 }
 
 .inner {
-  font-family: 'Acme', 'sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   max-width: 70%;
 }
 
@@ -155,7 +156,7 @@ h1, h2, h3, h4 {
   margin-right: auto;
   margin-left: auto;
   text-align: left;
-  font-family: 'Chau Philomene One', 'sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: bold;
   padding: 0.5em;
   padding-top: 2%;
@@ -183,7 +184,7 @@ h1, h2, h3, h4 {
 }
 
 .teaser-text {
-  font-family: 'Chau Philomene One', 'sans-serif';
+  font-family: 'Acme', 'sans-serif';
   font-size: 2.1em;
 }
 
@@ -191,6 +192,10 @@ h1, h2, h3, h4 {
 
 a {
   cursor: pointer;
+}
+
+ul {
+  list-style: circle;
 }
 
 .logo {
@@ -225,7 +230,7 @@ a {
 }
 
 .btn {
-  font-family: 'Chau Philomene One', 'sans-serif';
+  font-family: 'Acme', 'sans-serif';
   position: absolute;
   bottom: 3%;
   right: 1%;

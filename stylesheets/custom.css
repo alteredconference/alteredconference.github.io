@@ -3,8 +3,8 @@ ul, ol, dl {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Acme', 'sans-serif';
-  text-transform: uppercase;
+  font-family: 'Montserrat', 'sans-serif';
+  text-transform: capitalize;
   letter-spacing: normal;
 }
 
@@ -184,8 +184,13 @@ h1, h2, h3, h4 {
 }
 
 .teaser-text {
-  font-family: 'Acme', 'sans-serif';
-  font-size: 2.1em;
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.altered-name {
+  text-transform: capitalize;
 }
 
 /*-- shared --*/
@@ -230,11 +235,11 @@ ul {
 }
 
 .btn {
-  font-family: 'Acme', 'sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   position: absolute;
   bottom: 3%;
   right: 1%;
-  text-transform: uppercase;
+  text-transform: lowercase;
   background: none;
   cursor: pointer;
   border: none;

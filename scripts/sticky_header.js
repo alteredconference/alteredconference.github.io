@@ -3,7 +3,7 @@ $(document).ready(function(){
   //- i will lick your ass if you can explain why i need to do this.-
   // turns out i can dere-lict my own balls, thank you very much. 
   // github pages use a frameset which is fucked, that's the short version.
-  parent.window.document.title = "Altered Conference | Berlin"
+  top.document.title = "Altered Conference | Berlin"
 
   $('#nav-button').on('click', function(){
     if($('#nav').hasClass('hide')) {
@@ -25,5 +25,5 @@ $(document).on('scroll', function(){
 });
 
 goToPage = function(path){
-  window.top.location = path
+  top.window.location.href = path
 }

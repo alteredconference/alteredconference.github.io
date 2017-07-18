@@ -52,6 +52,11 @@ Small Device Styles
     padding-top: 4%;
   }
 
+  #topics-wrap .topic {
+    width: 100%;
+    float: none;
+  }
+
   #project_title {
     font-size: 32px;
   }

@@ -20,10 +20,9 @@ $(document).on('scroll', function(){
 });
 
 goToPage = function(path){
-  // update the title.
+  // update urls when clicking a link
   //- i will lick your ass if you can explain why i need to do this.-
   // turns out i can dere-lict my own balls, thank you very much. 
   // github pages use a frameset which is fucked, that's the short version.
   top.window.location.href = path
-  //top.document.title = "Altered Conference | Berlin"
 }

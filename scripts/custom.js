@@ -20,11 +20,6 @@ $(document).ready(function(){
     $(this).removeClass('emphasize-link');
     $(this).find('.link-text').addClass('hide');
   });
-
-  $('.clickable').on('click', function(){
-    console.log($(this).data('link'));
-    window.location.href = $(this).data('link');
-  });
 });
 
 $(document).on('scroll', function(){

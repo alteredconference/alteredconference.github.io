@@ -12,11 +12,18 @@ $(document).ready(function(){
   });
 
   $('.clickable').on('mouseenter', function(){
-    $(this).find('button').addClass('glow');
+    $(this).addClass('emphasize-link');
+    $(this).find('.link-text').removeClass('hide');
   });
 
   $('.clickable').on('mouseleave', function(){
-    $(this).find('button').removeClass('glow');
+    $(this).removeClass('emphasize-link');
+    $(this).find('.link-text').addClass('hide');
+  });
+
+  $('.clickable').on('click', function(){
+    console.log($(this).data('link'));
+    window.location.href = $(this).data('link');
   });
 });
 

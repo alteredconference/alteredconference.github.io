@@ -13,12 +13,10 @@ $(document).ready(function(){
 
   $('.clickable').on('mouseenter', function(){
     $(this).addClass('emphasize-link');
-    $(this).find('.link-text').removeClass('hide');
   });
 
   $('.clickable').on('mouseleave', function(){
     $(this).removeClass('emphasize-link');
-    $(this).find('.link-text').addClass('hide');
   });
 });
 

@@ -29,14 +29,6 @@ Small Device Styles
 }
 
 @media screen and (max-width: 768px) {
-  .inner {
-    max-width: 80%;
-  }
-
-  #topics-wrap .topic {
-    width: 100%;
-    float: none;
-  }
 }
 
 @media screen and (max-width: 960px) {
@@ -48,6 +40,10 @@ Small Device Styles
     margin-top: 2em;
   }
 
+  .inner {
+    max-width: 80%;
+  }
+
   #nav {
     padding-top: 4%;
   }
@@ -57,8 +53,17 @@ Small Device Styles
     float: none;
   }
 
-  #project_title {
-    font-size: 32px;
+  .donation-method {
+    width: 100%;
+    float: none;
+  }
+
+  .paypal-donation-logo {
+    width: 35%;
+  }
+
+  .bitcoin-donation-logo {
+    width: 25%;
   }
 
   h1 {

@@ -267,7 +267,8 @@ ul {
 
 .emphasize-link {
   cursor: pointer;
-  box-shadow: 5px 5px #222;
+  background: rgba(255,255,255,0.8);
+  height: 100%;
 }
 
 .link-text {

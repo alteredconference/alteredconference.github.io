@@ -263,8 +263,15 @@ ul {
 
 .partner-logo {
   display: inline-block;
+  padding: 1em;
   width: 10em;
   height: 10em;
+}
+
+.psychedelic-press-logo {
+  display: inline-block;
+  width: 30em;
+  height: 7em;
 }
 
 .sub-section {

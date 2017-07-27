@@ -1,5 +1,5 @@
 ul, ol, dl {
-  margin-bottom: 0px;
+  margin-bottom: none;
 }
 
 h1, h2, h3, h4 {
@@ -228,6 +228,7 @@ h1, h2, h3, h4 {
 
 a {
   cursor: pointer;
+  outline: none;
 }
 
 ul {
@@ -250,7 +251,20 @@ ul {
   width: 30%;
 }
 
-.main-content {
+#partner-logos {
+  background: white;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  box-shadow: 0 0 15px 10px white;
+  border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+}
+
+.partner-logo {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
 }
 
 .sub-section {

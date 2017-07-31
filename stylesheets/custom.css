@@ -97,19 +97,21 @@ h1, h2, h3, h4 {
 }
 
 #topic-image-right {
-  animation: reverseSpin 100s infinite linear;
-  -moz-animation: reverseSpin 100s infinite linear;
-  -webkit-animation: reverseSpin 100s infinite linear;
+  animation: reverseSpin 10s infinite ease-out;
+  -moz-animation: reverseSpin 10s infinite ease-out;
+  -webkit-animation: reverseSpin 10s infinite ease-out;
 }
 
 @-moz-keyframes spin {
     from { -moz-transform: rotate(0deg) scale(2); }
     to { -moz-transform: rotate(360deg) scale(1); }
 }
+
 @-webkit-keyframes spin {
     from { -webkit-transform: rotate(0deg); }
     to { -webkit-transform: rotate(360deg); }
 }
+
 @keyframes spin {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}

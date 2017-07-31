@@ -277,6 +277,14 @@ ul {
   height: 7em;
 }
 
+.czeps-logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  width: 15em;
+  height: 10em;
+}
+
 .sub-section {
   font-size: 1.1em;
   position: relative;

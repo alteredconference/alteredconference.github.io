@@ -287,6 +287,14 @@ ul {
   height: 10em;
 }
 
+.beckley-logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  width: 23em;
+  height: 10em;
+}
+
 .sub-section {
   font-size: 1.1em;
   position: relative;

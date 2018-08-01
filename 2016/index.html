@@ -21,26 +21,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/custom.css">
     <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/responsive.css">
 
+    <!-- don't need this when not displaying the map
     <script type="text/javascript" src="../scripts/google_map_topics_berlin.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9cq_PZrw3PQR4wunTyTD-XqLs7PnVqMk&callback=initMap">
     </script>
+    don't need this when not displaying the map -->
 
   </head>
 
   <body>
     <!-- HEADER -->
-    <div id="header-wrap-2016" class="outer">
+    <div id="header-wrap" class="outer">
       <header class="inner">
-        <div id='header-banner'>
+        <div id='header-banner' class='banner-2016'>
           <a onclick="goToPage('../index.html')">
-            <img id="header-logo" class='logo' src="../images/altered_banner.png" alt="altered_banner">
+            <img id="header-logo-2016" class='logo'
+            src="../images/altered_banner_2016_white.png" alt="altered_banner">
           </a>
           <center>
             <div class='tagline'>A conference exploring altered states of consciousness</div>
             <div class='conf-date'>
-              22 October, 2016 @Topics Books</br>
-              Neukölln, Berlin
+              22 October, 2016</br>
+              @Topics Books, Berlin
             </div>
           </center>
         </div>
@@ -48,6 +51,7 @@
     </div>
 
     <!-- NAV -->
+    <!-- not used now #####
     <div id='nav-button'>&#9776;</div>
     <div id='nav' class='hide'>
       <ul>
@@ -74,17 +78,41 @@
         </li>
       </ul>
     </div>
+    ##### not used now -->
 
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap-2016" class="outer">
+    <div id="main-content-wrap" class="outer">
       <section id="main_content" class="inner">
+        <div id='inspiration' class='sub-section'>
+          <a id="inspiration-anchor" name="#inspiration" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+          </a>
+
+          <center><h2>Inspiration</h2></center>
+
+          <blockquote>
+            Our normal waking consciousness, rational consciousness as we call it,
+            is but one special type of consciousness, whilst all about it, parted
+            from it by the filmiest of screens, there lie potential forms of
+            consciousness entirely different. We may go through life without
+            suspecting their existence; but apply the requisite stimulus, and at a
+            touch they are there in all their completeness... No account of the
+            universe in its totality can be final which leaves these other forms
+            of consciousness quite disregarded. How to regard them is the question
+            — for they are so discontinuous with ordinary consciousness. Yet they
+            may determine attitudes though they cannot furnish formulas, and open
+            a region though they fail to give a map. At any rate, they forbid a
+            premature closing of our accounts with reality.
+          <div class='author'> - William James, "The Varieties of Religious Experience"</div>
+          </blockquote>
+        </div>
+
         <div id='programme' class='sub-section'>
-          <h3>
-            <a id="programme" class="anchor" href="#programme" aria-hidden="true">
-              <span aria-hidden="true" class="octicon octicon-link"></span>
-            </a>
-            Programme
-          </h3>
+          <a id="programme-anchor" name="#programme" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+          </a>
+
+          <center><h2>Program</h2></center>
 
           <p>
             Click the audio icon next to each title to listen now
@@ -98,7 +126,7 @@
                 <img src="../images/icon_sound.png">
               </a>
               <em>Exploring the Other Realms</em>: Plants, Ritual, and Experience -
-              <a href="http://www.annelouisemerrill.com">Anne Merrill</a>
+              <a class='speaker-link' href="http://www.annelouisemerrill.com">Anne Merrill</a>
             </li>
             <li>
               <a class="recording"
@@ -120,7 +148,8 @@
                 href="https://ia601509.us.archive.org/10/items/RSBetweenHysteriaAndEcstacy/RS_between_hysteria_and_ecstacy.mp3" target="_blank">
                 <img src="../images/icon_sound.png">
               </a>
-              <em>Between Hysteria and Ecstacy</em>: Ludwig Klages and Philosophy - <a href="http://www.universiteitleiden.nl/en/staffmembers/rico-sneller">Dr. Rico Sneller</a>
+              <em>Between Hysteria and Ecstacy</em>: Ludwig Klages and
+              Philosophy - <a class='speaker-link' href="http://www.universiteitleiden.nl/en/staffmembers/rico-sneller">Dr. Rico Sneller</a>
             </li>
             <li>
               <a class="recording"
@@ -143,29 +172,7 @@
           </center></p>
         </div>
 
-        <div id='inspiration' class='sub-section'>
-          <h3>
-          <a id="inspiration" class="anchor" href="#inspiration"
-            aria-hidden="true"><span aria-hidden="true" class="octicon
-              octicon-link"></span></a>Inspiration
-          </h3>
-
-          <blockquote>
-            Our normal waking consciousness, rational consciousness as we call it,
-            is but one special type of consciousness, whilst all about it, parted
-            from it by the filmiest of screens, there lie potential forms of
-            consciousness entirely different. We may go through life without
-            suspecting their existence; but apply the requisite stimulus, and at a
-            touch they are there in all their completeness... No account of the
-            universe in its totality can be final which leaves these other forms
-            of consciousness quite disregarded. How to regard them is the question
-            — for they are so discontinuous with ordinary consciousness. Yet they
-            may determine attitudes though they cannot furnish formulas, and open
-            a region though they fail to give a map. At any rate, they forbid a
-            premature closing of our accounts with reality.
-          <div class='author'> - William James, "The Varieties of Religious Experience"</div>
-          </blockquote>
-        </div>
+        <!-- don't need to show location #####
 
         <div id='location' class='sub-section'>
           <h3>
@@ -178,8 +185,32 @@
             <div id='topics-gmaps'></div>
           </div>
         </div>
+
+        ##### don't need to show location -->
       </section>
     </div>
+
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><img class='copyleft logo' src='../images/copyleft.png'>Altered 2016-2018</li>
+          <li><a onclick="goToPage('../index.html')">Home</a></li>
+          <li><a onclick="goToPage('../impressum.html')">Impressum</a></li>
+          <li><a href='https://twitter.com/altered_conf'>
+            <img class='social-media-logo logo' src='../images/twitter-logo.png' alt='twitter'>
+          </a></li>
+          <li><a href='https://www.instagram.com/altered.conference/'>
+            <img class='social-media-logo logo'
+            src='../images/instagram-logo.png' alt='insta'>
+          </a></li>
+          <li><a href='https://www.facebook.com/alteredconference/'>
+            <img class='social-media-logo logo' src='../images/facebook-logo.png'
+            alt='facebook'>
+          </a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
   <script type="text/javascript" src="../scripts/jquery.min.js"></script>
   <script type="text/javascript" src="../scripts/custom.js"></script>

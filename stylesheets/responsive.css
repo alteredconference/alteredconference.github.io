@@ -9,7 +9,7 @@ Small Device Styles
 }
 
 @media screen and (max-width: 360px) {
-  #body-2017 .inner {
+  .inner {
     max-width: 85%;
   }
 

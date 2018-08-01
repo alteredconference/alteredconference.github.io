@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Altered Conference 2017 | Berlin</title>
+    <title>Altered Conference</title>
 
     <meta charset='utf-8'/>
     <meta http-equiv="X-UA-Compatible"  content="chrome=1"/>
     <meta property="og:url"             content="http://www.alteredconference.com"/>
-    <meta property="og:title"           content="Altered Conference 2017 | Berlin"/>
+    <meta property="og:title"           content="Altered Conference"/>
     <meta property="og:image"           content="http://www.alteredconference.com/images/altered-logo-black.jpg" />
     <meta property="og:site_name"       content="AlteredConference"/>
     <meta property="og:description"     content="A conference exploring altered states of consciousness" />
@@ -23,28 +23,31 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- javascripts -->
-    <script type="text/javascript" src="scripts/google_map_essentis.js"></script>
-    <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9cq_PZrw3PQR4wunTyTD-XqLs7PnVqMk&callback=initMap">
-    </script>
   </head>
 
-  <body id='body-2017'>
-
+  <body id='body'>
     <!-- HEADER -->
-    <div id="header-wrap-2017" class="outer">
+    <div id="header-wrap" class="outer">
       <header class="inner">
-        <div id='header-banner'>
-          <img id="header-logo" class='logo' src="./images/altered_banner_2017.png" alt="altered_banner">
+        <div id='header-banner' class='banner-2017'>
+          <img id="header-logo-2017" class='logo'
+          src="images/altered_banner_2017_white.png" alt="altered_banner">
           <center>
-            <div class='tagline'>A conference exploring psychedelics and altered states of consciousness</div>
-            <div class='conf-date'>3-4 November, 2017 / Berlin</div>
+            <div class='tagline'>
+              A conference exploring altered states of consciousness
+            </div>
+            <div class='past-conferences'>
+              <a onclick="goToPage('./2016/index.html')">2016</a>
+              |
+              <a onclick="goToPage('./2017/index.html')">2017</a>
+            </div>
           </center>
         </div>
       </header>
     </div>
 
     <!-- NAV -->
+    <!-- not used now #####
     <div id='nav-wrapper'>
       <div id='nav-button'>&#9776;</div>
       <div id='nav' class='hide'>
@@ -73,219 +76,13 @@
         </ul>
       </div>
     </div>
-
-    <div class='teaser outer'>
-      <section class='teaser-inner inner'>
-        <div class='teaser-text center'>
-          <p>
-            Altered is an international gathering of consciousness explorers from
-            all backgrounds to take part in talks, workshops and rituals on the
-            subject of psychedelics, conscious practices, and social issues
-            facilitated by leading experts and researchers.
-          </p>
-        </div>
-      </div>
-    </div>
+    ##### not used now -->
 
     <!-- MAIN CONTENT -->
-    <div id="main-content-wrap-2017-upper" class="outer">
-      <section class="main-content inner">
-        <div class='sub-section clickable' onclick="goToPage('2017/theme.html')">
-          <a id="theme" name="theme" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-          <h2><center>
-            Theme: Altered States, Crisis and Opportunity
-          </center></h2>
-
-          <p>
-            At Altered 2017 we want to explore crisis and our relationship
-            to it as individuals and as communities, both local and
-            global.
-          </p>
-
-          <div class='link-text'>more..</div>
-        </div>
-
-        <div class='sub-section'>
-          <a id="topics" name="#topics" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Conference Topics</h2></center>
-
-          <div id='topics-wrap' class='center'>
-            <div class='topic'>
-              <img id='topic-image-left' class='logo' src="./images/pale_green_bubble.png">
-              <h4 class='center'>Altered State Experiences</h4>
-              <ul>
-                <li>Psychedelic Therapy</li>
-                <li>Ayahuasca and Plant Medicines</li>
-                <li>Psychedelic Research (DMT, Psilocybin, Ketamine, etc..)</li>
-                <li>Microdosing</li>
-                <li>Creating Set and Setting</li>
-                <li>Harm Reduction</li>
-              </ul>
-            </div>
-
-            <div class='topic'>
-              <img id='topic-image-middle' class='logo' src="./images/blue_bubble.png">
-              <h4 class='center'>Conscious Practices</h4>
-              <ul>
-                <li>Alchemy (West and East)</li>
-                <li>Ritual</li>
-                <li>Tarot and Astrology</li>
-                <li>Chaos Magick</li>
-                <li>Lucid Dreaming</li>
-                <li>Tantra</li>
-              </ul>
-            </div>
-
-            <div class='topic'>
-              <img id='topic-image-right' class='logo' src="./images/deep_pink_bubble.png">
-              <h4 class='center'>Culture and Society</h4>
-              <ul>
-                <li>Plant Intelligence & Gaia Theory</li>
-                <li>Contemporary Shamanism</li>
-                <li>Ayahuasca, Native Populations and Appropriation</li>
-                <li>Safe and Conscious Drug Practice</li>
-                <li>Anthropology</li>
-                <li>The Psychedelic Renaissance</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class='sub-section clickable' onclick="goToPage('2017/collaborators.html')">
-          <a id="collaborators" name="#collaborators" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Be a Part of Altered 2017</h2></center>
-
-          <p>
-            Our aim is to provide a platform to talk, share, open up and
-            give something from your heart - present a talk, lead a
-            workshop or ritual, help to market and promote the conference,
-            secure sponsorship or join us in planning, organizing, promoting and
-            setting up the event - we need your help and collaboration!
-          </p>
-
-          <div class='link-text'>more..</div>
-        </div>
-
-        <div class='sub-section'>
-          <a id="programme" name="#programme" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-          <h2><center>
-            Programme
-          </center></h2>
-
-          <p class='center'>TBA</p>
-        </div>
-
-        <div class='sub-section'>
-          <a id="location" name="#location" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Location</h2></center>
-
-          <p class='center'>
-            <a href='http://essentisbiohotel.de/en/'>
-              Essentis Bio Hotel, Berlin
-            </a>
-          </p>
-
-          <div id='map'><center>
-            <div id='essentis-gmaps'></div>
-          </center></div>
-        </div>
-      </section>
-    </div>
-
-    <div class='teaser outer'>
-      <section class='teaser-inner inner'>
-        <div class='teaser-text center'>
-          <p>
-            Together, we will evoke curiousity, joy, love and excitement.</br>
-            We will contribute to the development of the psychedelic community.</br>
-            We will see the world through each other's eyes and let it change us.
-          </p>
-        </div>
-      </section>
-    </div>
-
-    <div id="main-content-wrap-2017-lower" class="outer">
-      <section class="main-content inner">
-        <div class='sub-section'>
-          <a id="tickets" name="#tickets" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Tickets</h2></center>
-          <p class='center'>
-            On sale soon!
-          </p>
-        </div>
-
-        <div class='sub-section clickable' onclick="goToPage('2017/donations.html')">
-          <a id="donations" name="#donations" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Donate</h2></center>
-            <p>
-              100% of donations will go to putting on Altered Conference 2017
-              - paying for the venue, speakers and staff, renting equipment,
-              and helping to sponsor those who wish to come but wouldn't be able
-              to for financial reasons.
-            </p>
-
-            <div class='link-text'>more..</div>
-        </div>
-
-        <div class='sub-section'>
-          <a id="contact" name="#contact" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Contact</h2></center>
-          <p>
-            If you'd like to speak, lead a workshop, collaborate with us,
-            volunteer to help, or just have a question, please contact us!
-          </p>
-
-          <p>Send an email to alteredconference@gmail.com</p>
-        </div>
-
-        <div class='sub-section'>
-          <a id="partners" name="#partners" aria-hidden="true">
-            <span aria-hidden="true" class="octicon octicon-link"></span>
-          </a>
-
-          <center><h2>Partners</h2></center>
-          <div id='partner-logos' class='center'>
-            <a href='http://beckleyfoundation.org/' target='_blank'>
-              <img class="beckley-logo logo" src="images/partners/beckley_foundation_gold.jpg" alt="Beckley Foundation">
-            </a>
-            <a href='http://iceers.org/' target='_blank'>
-              <img class="partner-logo logo" src="images/partners/iceers.jpg" alt="ICEERS">
-            </a>
-            <a href='https://www.facebook.com/psysocire' target='_blank'>
-              <img class="partner-logo logo" src="images/partners/psychedelic_society_of_ireland.jpg" alt="Psychedelic Society of Ireland">
-            </a>
-            <a href='https://psychedelicpress.co.uk/collections/books' target='_blank'>
-              <img class="psychedelic-press-logo logo" src="images/partners/psychedelic_press.png" alt="Psychedelic Press">
-            </a>
-            <img class="czeps-logo logo" src="images/partners/czepslogo.svg"
-            alt="Czech Psychedelic Society">
-          </div>
-        </div>
-
-        <div class='sub-section'>
-          <a id="inspiration" name="#inspiration" aria-hidden="true">
+    <div id="main-content-wrap" class="outer">
+      <section id="main-content" class="inner">
+        <div id='inspiration' class='sub-section'>
+          <a id="inspiration-anchor" name="#inspiration" aria-hidden="true">
             <span aria-hidden="true" class="octicon octicon-link"></span>
           </a>
 
@@ -306,38 +103,76 @@
 
           <p>
             <blockquote>
-              ...it was maddening to me to find that the environmentalists, the
-              feminists, the gays, the psychedelic people, the space
-              colonization people – none of these people had anything to say to
-              each other. They didn’t seem to realize that their marginality
-              united them far more than any difference they might perceive in
-              their positions. They didn’t seem to realize that their political
-              disempowerment was a product of their inability to make common
-              cause with people similarly motivated, or similarly motivated
-              toward social change.  It’s very important to build an inclusive
-              community and a community that has a sense of direction and I
-              think the Internet empowers this far more than any other tool that
-              has been handed to us, except psychedelics. If you take
-              psychedelics, the Internet, music and put all of that together –
-              you have the basis for a new community that is wider and deeper
-              than you know. The people who are building the new machines, who
-              are designing the new circuitry, who are writing the new code –
-              they are all freaks.
-            <div class='author'>
-              - Terence McKenna
-            </div>
+              Our normal waking consciousness, rational consciousness as we call it,
+              is but one special type of consciousness, whilst all about it, parted
+              from it by the filmiest of screens, there lie potential forms of
+              consciousness entirely different. We may go through life without
+              suspecting their existence; but apply the requisite stimulus, and at a
+              touch they are there in all their completeness... No account of the
+              universe in its totality can be final which leaves these other forms
+              of consciousness quite disregarded. How to regard them is the question
+              — for they are so discontinuous with ordinary consciousness. Yet they
+              may determine attitudes though they cannot furnish formulas, and open
+              a region though they fail to give a map. At any rate, they forbid a
+              premature closing of our accounts with reality.
+            <div class='author'> - William James, "The Varieties of Religious Experience"</div>
             </blockquote>
           </p>
         </div>
+
+        <div class='sub-section clickable' onclick="goToPage('./donations.html')">
+          <a id="donations" name="#donations" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+          </a>
+
+          <center><h2>Donate</h2></center>
+            <p>
+              We're happy to accept donations to offset the costs associated
+              with running Altered!
+            </p>
+
+            <div class='link-text'>more..</div>
+        </div>
+
+        <div class='sub-section'>
+          <a id="contact" name="#contact" aria-hidden="true">
+            <span aria-hidden="true" class="octicon octicon-link"></span>
+          </a>
+
+          <center><h2>Contact</h2></center>
+          <p>
+            If you'd like to speak, lead a workshop, collaborate with us,
+            volunteer to help or just have a question, please contact us!
+          </p>
+
+          <center><p>Send an email to
+            <a href='mailto:alteredconference@gmail.com'>alteredconference@gmail.com</a>
+          </p></center>
+        </div>
+
       </section>
     </div>
 
-    <!-- UNUSED FOOTER
-    <div id="footer" class="outer">
-      <section class="inner">
-      </section>
-    </div>
-    --!>
+    <!-- FOOTER -->
+    <footer id="footer-wrap" class="outer">
+      <div id='footer-links' class='inner'>
+        <ul>
+          <li><img class='copyleft logo' src='./images/copyleft.png'>Altered 2016-2018</li>
+          <li><a onclick="goToPage('./index.html')">Home</a></li>
+          <li><a onclick="goToPage('./impressum.html')">Impressum</a></li>
+          <li><a href='https://twitter.com/altered_conf'>
+            <img class='social-media-logo logo' src='./images/twitter-logo.png' alt='twitter'>
+          </a></li>
+          <li><a href='https://www.instagram.com/altered.conference/'>
+            <img class='social-media-logo logo' src='./images/instagram-logo.png' alt='insta'>
+          </a></li>
+          <li><a href='https://www.facebook.com/alteredconference/'>
+            <img class='social-media-logo logo' src='./images/facebook-logo.png'
+            alt='facebook'>
+          </a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
   <script type="text/javascript" src="scripts/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/custom.js"></script>
